@@ -2,7 +2,7 @@ import numpy as np
 from numpy import unravel_index
 
 from numpy import genfromtxt
-my_data = genfromtxt('train.csv', delimiter=',') # gets first row that is empty of csv
+my_data = genfromtxt('dataset.csv', delimiter=',') # gets first row that is empty of csv
 #%%  pictures has 28*28 Dimension 
 from random import random
 data = np.delete(my_data,0,0) # deleted the get empty row, now there are just datas
